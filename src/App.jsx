@@ -13,7 +13,7 @@ const App = () => {
   const fetchTours = async () => {
     setLoading(true); // Set loading to true before fetching
     try {
-      const response = await fetch('https://course-api.com/react-tours-project');
+      const response = await fetch('https://www.course-api.com/react-tours-project');
       if (!response.ok) {
         throw new Error('Failed to fetch tours'); // Throw error if response is not ok
       }
